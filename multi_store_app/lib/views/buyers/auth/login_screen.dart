@@ -43,6 +43,9 @@ class _LoginScreenState extends State<LoginScreen> {
       if (loginStatus == 'success') {
           ScaffoldMessenger.of(context)
               .showSnackBar(SnackBar(content: Text('Logged in')));
+          Navigator.push(context, MaterialPageRoute(builder: (contex) {
+            return RegisterScreen();
+          }));
       } else {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text('Login failed. $loginStatus'),
