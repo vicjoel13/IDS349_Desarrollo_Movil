@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80089582162",
+    "project_id": "hale-life-337721",
+    "storage_bucket": "hale-life-337721.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80089582162:android:88f70ccce2144e1889ed8b",
+        "android_client_info": {
+          "package_name": "com.example.multi_store_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWfSaEnxVwNx_lRXI3rUi4-7oS8nOirsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
